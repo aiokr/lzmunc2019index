@@ -1,0 +1,21 @@
+.header{
+    background-color: grey
+}
+
+.padding{
+    padding: 35px
+}
+
+.bg {
+    background:url(../images/bg.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed
+}
+
+.opacity{
+    background-color: rgba(255, 255, 255, 0.8)
+}
