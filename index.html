@@ -12,9 +12,24 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
     <link rel="icon shortcut" type="image/ico" href="./assets/images/icon.png">
     <link rel="icon" href="./assets/images/icon.png">
+    <script src="./assets/js/backgrund.js" type="text/javascript"></script>
 </head>
 
 <body class="bg">
+    <script type="text/javascript">
+        $.backstretch([
+            './assets/images/bg1.jpg',
+            './assets/images/bg2.jpg',
+            './assets/images/bg3.jpg',
+            './assets/images/bg4.jpg',
+            './assets/images/bg5.jpg',
+            './assets/images/bg6.jpg',
+            './assets/images/bg7.jpg'
+        ], {
+                fade: 500, // 动画时长
+                duration: 3000 // 切换延时
+            });
+    </script>
     <div class="header" min-height=100vh>
     </div>
     <div class="mdui-container">
@@ -44,6 +59,24 @@
                         <div class="mdui-card-actions">
                             <button class="mdui-btn mdui-ripple">立即报名</button>
                             <button class="mdui-btn mdui-ripple">了解详情</button>
+                        </div>
+                    </div>
+                    <div class="padding"></div>
+                    <div class="mdui-card opacity">
+                        <div class="mdui-card-primary">
+                            <div class="mdui-card-primary-title">距离2019柳州模拟联合国大会开幕</div>
+                            <div class="mdui-card-primary-title">还有</div>
+                        </div>
+                        <div>
+                                <div id="dd" class="mdui-typo-display-3 mdui-text-center">0</div><div class="mdui-typo-display-1 mdui-text-center">天</div>
+                                <br>
+                                <div id="hh" class="mdui-typo-display-3 mdui-text-center">0</div><div class="mdui-typo-display-1 mdui-text-center">时</div>
+                                <br>
+                                <div id="mm" class="mdui-typo-display-3 mdui-text-center">0</div><div class="mdui-typo-display-1 mdui-text-center">分</div>
+                                <br>
+                                <div id="ss" class="mdui-typo-display-3 mdui-text-center">0</div><div class="mdui-typo-display-1 mdui-text-center">秒</div>
+                                <br>
+                                <div class="padding-count"></div>
                         </div>
                     </div>
                     <div class="padding"></div>
